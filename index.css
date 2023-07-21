@@ -1,16 +1,21 @@
 .background{
     background-image: url('/image/homepage.jpg');
+    opacity: 0.9;
+    height: 720px;
+    background-position: center;
 }
 
 .logo{
-    width: 70%;
-    margin: auto;
+    
     display: flex;
     justify-content: space-between;
     }
-
+.logo1{
+    width: 70%;
+    margin: auto;
+}
 .src{
-    height: 40px;
+    height: 38px;
     margin: 13px;
     
 }
@@ -25,12 +30,10 @@
     list-style: none;
     display: flex;
     color: #f5f5f5;
-    font-size: 20px;
-    gap: 40px;
-   
+    font-size: 21px;
+    gap: 44px;
 }
-
-.reservation_button{
+.reservation-button{
     margin: 14px 25px 14px 25px;
     padding: 10px 22px 10px 22px;
     font-weight: 600;
@@ -38,5 +41,105 @@
     background-color: black;
     color: white;
     border: 1px solid;
+    font-size: 13px;
 }
 
+.reservation-button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.para{
+    margin-top: 150px;
+}
+
+.p1{
+    color: white;
+    text-align: center;
+}
+
+.p2{
+    color: #ffffff;
+    font-size: 73px;
+    text-align: center;
+    margin-top: 50px !important;
+    font-weight: 500;
+    width: 65%;
+    margin: auto;
+}
+
+.p3{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.divider{
+    position: relative;
+    left: 50%;
+}
+
+.line{
+    border-left: 1px solid white;
+    display: block;
+    height: 80px;
+    margin-top: 80px;
+}
+
+.mouse{
+    fill: #ffffff;
+    position: relative;
+    left: 45%;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 5px;
+    display: flex;
+}
+.scroll{
+    font-size: 12px;
+    margin-left: 8px;
+    margin-top: 17px;
+}
+
+.row{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 70px;
+}
+
+.heading{
+    font-size: 59px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.text{
+    text-align: left;
+    font-size: 18px;
+    margin-right: 218px;
+    color: grey;
+}
+
+.good-vibe{
+    margin-top: 22px;
+}
+
+.small-text{
+    color: grey;
+    font-size: 18px;
+}
+.cup{
+    margin-top: 60px;
+}
+.cozytext{
+    font-size: 18px;
+    color: grey;
+}
+
+.relax{
+    margin-top: 55px;
+}
