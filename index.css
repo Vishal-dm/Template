@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Raleway:wght@600&display=swap');
 /* *{
     margin: 0;
     padding: 0;
@@ -9,11 +9,14 @@ body{
 }
 .background{
     background-image: url('/image/homepage.jpg');
-    opacity: 0.9;
-    height: 720px;
+    height: 940px;
     background-position: center;
-}
+    opacity: o.56;
 
+    /* background-color: var(--e-global-color-astglobalcolor2 );
+    opacity: .56;
+    transition: background .3s,border-radius .3s,opacity .3s; */
+}
 .logo{
     
     display: flex;
@@ -41,6 +44,9 @@ body{
     color: #f5f5f5;
     font-size: 21px;
     gap: 44px;
+}
+.list:hover{
+    cursor: pointer;
 }
 .reservation-button{
     margin: 14px 25px 14px 25px;
@@ -72,12 +78,14 @@ body{
 
 .p2{
     color: #ffffff;
-    font-size: 73px;
+    font-size: 4.5rem;
     text-align: center;
     margin-top: 50px !important;
-    font-weight: 500;
-    width: 65%;
+    font-weight: 800;
+    width: 71%;
     margin: auto;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 .p3{
@@ -150,12 +158,12 @@ body{
     margin-bottom: -100px;
 }
 .cozytext{
-    font-size: 18px;
+    font-size: 18px;quick-link-list
     color: grey;
 }
 
 .relax{
-    margin-top: 55px;3em
+    margin-top: 55px;
 }
 .relax-atmosphere{
     color: grey;
@@ -171,6 +179,7 @@ body{
 .our-menu{
     text-align: center;
     font-size: 17px;
+    margin: 0px;
 }
 
 .row1{
@@ -280,6 +289,7 @@ body{
 .images{
     margin: auto;
     width: 90%;
+    padding-top: 100px;
 }
 .image1{
     width: 30%;
@@ -302,7 +312,7 @@ body{
     display: flex;
     padding-top: 100px;
     justify-content: space-between;
-    padding: 104px 0;
+    padding: 135px 0;
     
 }
 .next-page-col1, .next-page-col2{
@@ -327,6 +337,7 @@ body{
 
 .next-page-img2{
     width: 70%;
+    margin-top: 50px;
 }
 
 .next-page-img3{
@@ -451,7 +462,7 @@ body{
     /* width: 70%; */
     background-color: black;
     color: white;
-    padding: 150px 0;
+    padding: 50px 0;
 }
 .footer-row-wrapper{
     margin: 0 auto;
@@ -463,38 +474,134 @@ body{
 .footer-row{
 
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    padding-bottom: 100px;
 }
 
 .footer-col1, .footer-col2, .footer-col3, .footer-col4{
-    width: 25%;
+    width: 20%;
 }
 
 .nyus-logo{
     width: 40%;
 }
 
+.nyus-text{
+    font-size: 14px;
+}
+.facebook-logo{
+    height: 35px;
+    padding-right: 10px;
+}
+
+.facebook-logo:hover{
+    /* color: yellow; */
+    cursor: pointer;
+    /* background-color: yellow; */
+}
+
+.twitter-logo{
+    height: 32px;
+    padding-right: 10px;
+}
+.twitter-logo:hover{
+    /* color: yellow; */
+    cursor: pointer;
+    /* background-color: yellow; */
+}
+
+.youtube-logo{
+    height: 35px;
+    padding-right: 10px;
+}
+.youtube-logo:hover{
+    /* color: yellow; */
+    cursor: pointer;
+    /* background-color: yellow; */
+}
+.instagram-logo{
+    height: 30px;
+    padding-right: 10px;
+}
+.instagram-logo:hover{
+    /* color: yellow; */
+    cursor: pointer;
+    /* background-color: yellow; */
+}
+.yelp-logo{
+    height: 30px;
+}
+.yelp-logo:hover{
+    /* color: yellow; */
+    cursor: pointer;
+    /* background-color: yellow; */
+}
+
+.location{
+    font-size: 24px;
+    margin: 0;
+}
+
+.location-text{
+    font-size: 14px;
+}
+.direction{
+    display: flex;
+    /* color: yellow; */
+    cursor: pointer;
+    /* background-color: yellow; */
+}
+.get-direction:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.location-logo{
+    height: 28px;
+    padding-right: 8px;
+    padding-top: 12px;
+}
+/* .location-logo:hover{
+    color: yellow;
+    cursor: pointer;
+    /* background-color: yellow; */
 
 
+.quick-link{
+    font-size: 24px;
+    margin: 0;
 
+}
 
+.timing{
+    font-size: 24px;
+    margin: 0;
+}
 
+.quick-link-list{
+    list-style: none;
+    padding: 0;
+}
 
+.list-items:hover{
+    color: yellow;
+    cursor: pointer;
+}
 
+.clock1{
+    height: 30px;
+    padding-top: 12px;
+}
+.time{
+    padding-left: 50px;
+    margin-top: -40px;
+    font-size: 14px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-content{
+    margin: auto;
+    width: 70%;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
