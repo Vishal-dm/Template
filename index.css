@@ -9,7 +9,7 @@ body{
 }
 .background{
     background-image: url('/image/homepage.jpg');
-    height: 940px;
+    height: 100vh;
     background-position: center;
     opacity: o.56;
 
@@ -158,7 +158,7 @@ body{
     margin-bottom: -100px;
 }
 .cozytext{
-    font-size: 18px;quick-link-list
+    font-size: 18px;
     color: grey;
 }
 
