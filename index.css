@@ -507,6 +507,7 @@ body{
 .twitter-logo:hover{
     /* color: yellow; */
     cursor: pointer;
+    fill: yellow;
     /* background-color: yellow; */
 }
 
@@ -582,7 +583,9 @@ body{
     list-style: none;
     padding: 0;
 }
-
+.list-items{
+    width: fit-content;
+}
 .list-items:hover{
     color: yellow;
     cursor: pointer;
@@ -591,6 +594,11 @@ body{
 .clock1{
     height: 30px;
     padding-top: 12px;
+}
+.clock1:hover{
+    /* fill: yellow;
+    color: yellow; */
+    cursor: pointer;
 }
 .time{
     padding-left: 50px;
