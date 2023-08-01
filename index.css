@@ -840,6 +840,9 @@ body {
 .column1{
   width: 50%;
 }
+.column2{
+  width: 50%;
+}
 .good-vibe{
   width: 85%;
 }
@@ -865,4 +868,11 @@ body {
   color: grey;
   font-size: 12px;
 }
+.cozy-place{
+  width: 100%;
+}
+.relax {
+  margin-top: 20px;
+  width: 100%;
+} 
 }
