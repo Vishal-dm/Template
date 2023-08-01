@@ -195,7 +195,7 @@ body {
   width: 33%;
 }
 
-.Eat {
+.eat {
   text-align: center;
   font-size: 48px;
 }
@@ -643,4 +643,119 @@ body {
       .line{
         margin-top: 120px;
       }
+      .row{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        margin-top: 50px;
+      }
+      .heading{
+        font-size: 45px;
+        font-weight: 700;
+        margin-top: 0px;
+      }
+      .images{
+        margin: auto;
+        width: 95%;
+        padding-top: 25px;
+      }
+      .image1{
+        width: 45%;
+        margin-left: 35px;
+      }
+      .image-row1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin-top: 40px;
+      }
+      .eat {
+        text-align: center;
+        font-size: 34px;
+      }
+      .row2 {
+        text-align: center;
+        font-size: 12px;
+      }
+      .next-page{
+        width: 98%;
+        /* padding-top: 20px; */
+        padding: 50px 0;
+      }
+      .page-heading{
+        font-size: 40px;
+      }
+      .pic-text{
+        font-size: 14px;
+      }
+      .review-card{
+        font-size: 14px;
+      }
+      .next-page-img2{
+        width: 100%;
+      }
+      .nyus-logo {
+        width: 60%;
+      }
+      
+      .nyus-text {
+        font-size: 12px;
+      }
+      .location{
+        font-size: 20px;
+      }
+      .location-text {
+        font-size: 12px;
+      }
+      .quick-link {
+        font-size: 20px;
+        margin: 0;
+      }
+      .timing {
+        font-size: 19px;
+        margin: 0;
+    }
+    .quick-link-list{
+      font-size: 14px;
+    }
+    .footer-row-wrapper {
+      margin: 0 auto;
+      width: 95%;
+      justify-content: space-between;
+    }
+    .footer-col1, .footer-col2, .footer-col3, .footer-col4 {
+      width: 20%;
+    }
+    .time{
+      font-size: 11px;
+    }
+    .facebook-logo {
+      height: 25px;
+      padding-right: 10px;
+    }
+    .twitter-logo{
+      height: 25px;
+      padding-right: 10px;
+    }
+    .youtube-logo{
+        height: 25px;
+        padding-right: 10px;
+    }
+    .instagram-logo{
+        height: 25px;
+        padding-right: 10px;
+    }
+    .testimonial-row {
+      margin: auto;
+      width: 98%;
+      justify-content: space-between;
+      display: flex;
+  }
+
+    }
+
+@media (max-width: 768px){
+ 
 }
+  
+
