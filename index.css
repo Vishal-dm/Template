@@ -14,12 +14,11 @@ body {
 }
 .background {
   background-image: url("/image/homepage.jpg");
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  /* width: 100vw; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .logo {
   display: flex;
@@ -46,7 +45,16 @@ body {
   font-size: 21px;
   gap: 44px;
 }
-.list:hover {
+.list:hover {.mouse {
+  fill: #ffffff;
+  position: relative;
+  left: 41%;
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 5px;
+  display: flex;
+  height: 21px;
+}
   cursor: pointer;
 }
 .reservation-button {
@@ -306,7 +314,7 @@ body {
 }
 
 .img {
-  width: 510px;
+  width: 100%;
 }
 
 .next-page {
@@ -549,6 +557,9 @@ body {
   cursor: pointer;
   /* background-color: yellow; */
 }
+.get-direction {
+  color: white;
+}
 .get-direction:hover {
   color: yellow;
   cursor: pointer;
@@ -608,154 +619,250 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.contact-info {
+  display: flex;
+}
 @media (max-width: 1200px) {
-    .logo1{
-        width: 98%;
-        margin: auto;
-    }
-    .list{
-        font-size: 18px;
-    }
-    .para{
-        margin-top: 120px;
-    }
-    .p1{
-        font-size: 15px;
-    }
-    .p2{
-        font-size: 65px;
-        margin-top: 60px !important;
-    }
-    .p3{
-        font-size: 15px;
-        margin-top: 50px;
-    }
-    .background {
-        background-image: url("/image/homepage.jpg");
-        height: 100vh;
-        width: 100vw;
-        /* background-position: center; */
-        background-repeat: no-repeat;
-        background-size: cover;
-      
-      }
-
-      .line{
-        margin-top: 120px;
-      }
-      .row{
-        width: 95%;
-        margin: auto;
-        display: flex;
-        margin-top: 50px;
-      }
-      .heading{
-        font-size: 45px;
-        font-weight: 700;
-        margin-top: 0px;
-      }
-      .images{
-        margin: auto;
-        width: 95%;
-        padding-top: 25px;
-      }
-      .image1{
-        width: 45%;
-        margin-left: 35px;
-      }
-      .image-row1{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 25px;
-        margin-top: 40px;
-      }
-      .eat {
-        text-align: center;
-        font-size: 34px;
-      }
-      .row2 {
-        text-align: center;
-        font-size: 12px;
-      }
-      .next-page{
-        width: 98%;
-        /* padding-top: 20px; */
-        padding: 50px 0;
-      }
-      .page-heading{
-        font-size: 40px;
-      }
-      .pic-text{
-        font-size: 14px;
-      }
-      .review-card{
-        font-size: 14px;
-      }
-      .next-page-img2{
-        width: 100%;
-      }
-      .nyus-logo {
-        width: 60%;
-      }
-      
-      .nyus-text {
-        font-size: 12px;
-      }
-      .location{
-        font-size: 20px;
-      }
-      .location-text {
-        font-size: 12px;
-      }
-      .quick-link {
-        font-size: 20px;
-        margin: 0;
-      }
-      .timing {
-        font-size: 19px;
-        margin: 0;
-    }
-    .quick-link-list{
-      font-size: 14px;
-    }
-    .footer-row-wrapper {
-      margin: 0 auto;
-      width: 95%;
-      justify-content: space-between;
-    }
-    .footer-col1, .footer-col2, .footer-col3, .footer-col4 {
-      width: 20%;
-    }
-    .time{
-      font-size: 11px;
-    }
-    .facebook-logo {
-      height: 25px;
-      padding-right: 10px;
-    }
-    .twitter-logo{
-      height: 25px;
-      padding-right: 10px;
-    }
-    .youtube-logo{
-        height: 25px;
-        padding-right: 10px;
-    }
-    .instagram-logo{
-        height: 25px;
-        padding-right: 10px;
-    }
-    .testimonial-row {
-      margin: auto;
-      width: 98%;
-      justify-content: space-between;
-      display: flex;
+  .logo1 {
+    width: 98%;
+    margin: auto;
+  }
+  .list {
+    font-size: 18px;
+  }
+  .para {
+    margin-top: 120px;
+  }
+  .p1 {
+    font-size: 15px;
+  }
+  .p2 {
+    font-size: 65px;
+    margin-top: 60px !important;
+  }
+  .p3 {
+    font-size: 15px;
+    margin-top: 50px;
+  }
+  .background {
+    background-image: url("/image/homepage.jpg");
+    height: 100%;
+    /* width: 100vw; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img {
+    width: 100%;
+  }
+  .line {
+    margin-top: 120px;
+  }
+  .row {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+  }
+  .heading {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 0px;
+  }
+  .images {
+    margin: auto;
+    width: 95%;
+    padding-top: 25px;
+  }
+  .image1 {
+    width: 48%;
+  }
+  .image-row1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 40px;
+  }
+  .eat {
+    text-align: center;
+    font-size: 40px;
+  }
+  .row2 {
+    text-align: center;
+    font-size: 12px;
+  }
+  .next-page {
+    width: 98%;
+    /* padding-top: 20px; */
+    padding: 50px 0;
+  }
+  .page-heading {
+    font-size: 40px;
+  }
+  .pic-text {
+    font-size: 14px;
+  }
+  .review-card {
+    font-size: 14px;
+  }
+  .next-page-img2 {
+    width: 100%;
+  }
+  .nyus-logo {
+    width: 60%;
   }
 
-    }
-
-@media (max-width: 768px){
- 
+  .nyus-text {
+    font-size: 12px;
+  }
+  .location {
+    font-size: 20px;
+  }
+  .location-text {
+    font-size: 12px;
+  }
+  .quick-link {
+    font-size: 20px;
+    margin: 0;
+  }
+  .timing {
+    font-size: 19px;
+    margin: 0;
+  }
+  .quick-link-list {
+    font-size: 14px;
+  }
+  .footer-row-wrapper {
+    margin: 0 auto;
+    width: 95%;
+    justify-content: space-between;
+  }
+  .footer-col1,
+  .footer-col2,
+  .footer-col3,
+  .footer-col4 {
+    width: 20%;
+  }
+  .time {
+    font-size: 11px;
+  }
+  .facebook-logo {
+    height: 23px;
+    /* padding-right: 10px; */
+  }
+  .twitter-logo {
+    height: 23px;
+    /* padding-right: 10px; */
+  }
+  .youtube-logo {
+    height: 23px;
+    /* padding-right: 10px; */
+  }
+  .instagram-logo {
+    height: 23px;
+    /* padding-right: 10px; */
+  }
+  .yelp-logo {
+    height: 23px;
+  }
+  .location-logo {
+    height: 21px;
+    padding-right: 5px;
+    padding-top: 16px;
+  }
+  .testimonial-row {
+    margin: auto;
+    width: 98%;
+    justify-content: space-between;
+    display: flex;
+  }
+  .content {
+    margin: auto;
+    width: 95%;
+    padding-top: 150px;
+  }
+  .main-content-signature {
+    width: 95%;
+    margin: auto;
+    color: white;
+  }
+  .get-direction {
+    color: white;
+    font-size: 15px;
+  }
+  .get-direction:hover {
+    color: yellow;
+    cursor: pointer;
+  }
+  .footer-content {
+    margin: auto;
+    width: 95%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
-  
 
+@media (max-width: 768px) {
+  .p2 {
+    font-size: 42px;
+    margin-top: 33px !important;
+  }
+  .p3 {
+    font-size: 12px;
+    margin-top: 40px;
+  }
+  logo1 {
+    width: 100%;
+    margin: auto;
+}
+.mouse {
+  fill: #ffffff;
+  position: relative;
+  left: 41%;
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 5px;
+  display: flex;
+  height: 21px;
+}
+.heading {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+.text {
+  text-align: left;
+  font-size: 12px;
+  margin-right: 130px;
+  color: grey;
+}
+.column1{
+  width: 50%;
+}
+.good-vibe{
+  width: 85%;
+}
+.head2{
+  font-size: 20px;
+}
+.small-text {
+  color: grey;
+  font-size: 12px;
+}
+.head3{
+  font-size: 20px;
+}
+.cozytext {
+  font-size: 12px;
+  color: grey;
+}
+.head4{
+  font-size: 20px;
+
+}
+.relax-atmosphere {
+  color: grey;
+  font-size: 12px;
+}
+}
