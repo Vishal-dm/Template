@@ -14,7 +14,7 @@ body {
 }
 .background {
   background-image: url("/image/homepage.jpg");
-  height: 100%;
+  height: 100vh;
   /* width: 100vw; */
   background-position: center;
   background-repeat: no-repeat;
@@ -45,16 +45,17 @@ body {
   font-size: 21px;
   gap: 44px;
 }
-.list:hover {.mouse {
-  fill: #ffffff;
-  position: relative;
-  left: 41%;
-  color: #ffffff;
-  font-size: 14px;
-  margin-top: 5px;
-  display: flex;
-  height: 21px;
-}
+.list:hover {
+  .mouse {
+    fill: #ffffff;
+    position: relative;
+    left: 41%;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 5px;
+    display: flex;
+    height: 21px;
+  }
   cursor: pointer;
 }
 .reservation-button {
@@ -706,7 +707,7 @@ body {
     font-size: 14px;
   }
   .next-page-img2 {
-    width: 100%;
+    width: 85%;
   }
   .nyus-logo {
     width: 60%;
@@ -815,64 +816,534 @@ body {
   logo1 {
     width: 100%;
     margin: auto;
+  }
+  .mouse {
+    fill: #ffffff;
+    position: relative;
+    left: 41%;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 5px;
+    display: flex;
+    height: 21px;
+  }
+  .heading {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0px;
+  }
+  .text {
+    text-align: left;
+    font-size: 12px;
+    margin-right: 130px;
+    color: grey;
+  }
+  .column1 {
+    width: 50%;
+  }
+  .column2 {
+    width: 50%;
+  }
+  .good-vibe {
+    width: 85%;
+  }
+  .head2 {
+    font-size: 20px;
+  }
+  .small-text {
+    color: grey;
+    font-size: 12px;
+  }
+  .head3 {
+    font-size: 20px;
+  }
+  .cozytext {
+    font-size: 12px;
+    color: grey;
+  }
+  .head4 {
+    font-size: 20px;
+  }
+  .relax-atmosphere {
+    color: grey;
+    font-size: 12px;
+  }
+  .cozy-place {
+    width: 100%;
+  }
+  .relax {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .cup {
+    margin-bottom: -200px;
+    height: 32%;
+  }
+  .content {
+    margin: auto;
+    width: 85%;
+    padding-top: 60px;
+  }
+  .our-menu {
+    text-align: center;
+    font-size: 15px;
+    margin: 0px;
+  }
+  .eat {
+    text-align: center;
+    font-size: 28px;
+  }
+  .Custom {
+    font-size: 13px;
+  }
+  .customize {
+    color: gray;
+    font-size: 13px;
+  }
+  .custom-text {
+    font-size: 12px;
+    text-align: center;
+  }
+  .main-content-signature {
+    width: 90%;
+    margin: auto;
+    color: white;
+  }
+  .card {
+    background-color: black;
+    border-radius: 10px;
+    padding: 2.5em;
+  }
+  .cake-image {
+    float: right;
+    position: relative;
+    bottom: 90px;
+    /* height: 20%; */
+    height: 250px;
+  }
+  .footer {
+    /* margin: auto; */
+    /* width: 70%; */
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    margin-top: -120px;
+  }
+  .page-heading {
+    font-size: 36px;
+    /* font-family: 'Raleway'; */
+    font-family: "Raleway", sans-serif;
+  }
+  .t2-text {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 0px;
+  }
+  .testimonial-col {
+    width: 98%;
+    color: white;
+    margin-top: -50px;
+  }
+  .testimonial-row {
+    margin: auto;
+    width: 98%;
+    /* justify-content: space-between; */
+    /* display: flex; */
+    display: block;
+  }
+  .avtar {
+    border: 4px solid yellow;
+    border-radius: 46px;
+    position: relative;
+    top: 60px;
+    margin-left: 50px;
+  }
+  .review-card {
+    font-size: 16px;
+    margin-top: 35px;
+  }
+  .testimonial-page {
+    background-image: url(/image/testimonail-section-bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* opacity: 0.89; */
+    height: 1000px;
+  }
+  .review-name {
+    text-align: center;
+    font-size: 14px;
+    margin-top: -30px;
+  }
+  .reservation-word {
+    font-size: 32px;
+    text-align: center;
+    /* font-family: inherit; */
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+  }
+  .reservation-text {
+    text-align: center;
+    color: gray;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+  }
+  .telephone-reservation {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+  }
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+    /* padding-bottom: 100px; */
+    flex-wrap: wrap;
+  }
+  .footer-col1,
+  .footer-col2,
+  .footer-col3,
+  .footer-col4 {
+    width: 45%;
+  }
+  .nyus-logo {
+    width: 55%;
+  }
+  .nyus-text {
+    font-size: 14px;
+  }
+  .location {
+    font-size: 24px;
+  }
+  .location-text {
+    font-size: 14px;
+  }
+  .quick-link {
+    font-size: 24px;
+    /* margin: 0px; */
+    margin-top: 20px;
+  }
+  .timing {
+    font-size: 24px;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .list-items {
+    width: fit-content;
+    font-size: 15px;
+  }
+  .copy-right {
+    font-size: 15px;
+  }
 }
-.mouse {
-  fill: #ffffff;
-  position: relative;
-  left: 41%;
-  color: #ffffff;
+
+@media (max-width: 470px) {
+  .p1{
+    font-family: 'Raleway',sans-serif;
+    font-size: 15px;
+  }
+  .p2 {
+    font-size: 25px;
+    margin-top: 32px !important;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 900;
+}
+.p3 {
   font-size: 14px;
-  margin-top: 5px;
-  display: flex;
-  height: 21px;
+  margin-top: 40px;
 }
+.row {
+  width: 95%;
+  margin: auto;
+  /* display: flex; */
+  margin-top: 50px;
+  display: block;
+}
+.column1 {
+  width: 100%;
+}
+.column2{
+  width: 100%;
+}
+
 .heading {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
-  margin-top: 0px;
 }
 .text {
   text-align: left;
-  font-size: 12px;
-  margin-right: 130px;
+  font-size: 14px;
+  margin-right: 0px;
   color: grey;
 }
-.column1{
-  width: 50%;
+.good-vibe {
+  width: 100%;
 }
-.column2{
-  width: 50%;
-}
-.good-vibe{
-  width: 85%;
-}
-.head2{
-  font-size: 20px;
+.head2 {
+  font-size: 15px;
 }
 .small-text {
   color: grey;
-  font-size: 12px;
+  font-size: 14px;
 }
-.head3{
-  font-size: 20px;
+.cup{
+  display: none;
+}
+.head3 {
+  font-size: 15px;
 }
 .cozytext {
-  font-size: 12px;
+  font-size: 14px;
   color: grey;
 }
-.head4{
-  font-size: 20px;
-
+.head4 {
+  font-size: 15px;
 }
 .relax-atmosphere {
   color: grey;
-  font-size: 12px;
+  font-size: 14px;
 }
-.cozy-place{
+.main {
+  background-color: black;
+  color: white;
+  margin-top: 35px;
+}
+.our-menu {
+  text-align: center;
+  font-size: 11px;
+  margin: 0px;
+}
+.eat {
+  text-align: center;
+  font-size: 24px;
+}
+.col1,
+.col3{
+  display: none;
+}
+.col2{
   width: 100%;
 }
-.relax {
+.custom-text {.main-content-signature {
+  width: 95%;
+  margin: auto;
+  color: white;
+}
+  font-size: 14px;
+  text-align: center;
+}
+.row3 {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  display: block;
+  width: 98%;
+  margin-top: 30px;
+}
+.column31, .column32 {
+  width: 100%;
+}
+.colu1,
+.colu3{
+  display: none;
+}
+.colu2{
+  width: 100%;
+  margin-bottom: 50px;
+    margin-top: -50px;
+}
+.signature-menu {
+  font-size: 24px;
   margin-top: 20px;
+}
+.txt{
+  font-size: 14px;
+}
+.image-row1 {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  gap: 25px;
+  margin-top: 0px;
+  /* width: 98%; */
+  display: block;
+}
+.image1 {
+  width: 95%;
+  align-items: center;
+  margin-top: 25px;
+}
+.main-content-signature {
+  width: 95%;
+  margin: auto;
+  color: white;
+}
+.images {
+  margin: auto;
   width: 100%;
-} 
+  padding-top: 25px;
+}
+.next-page {
+  margin: auto;
+  width: 95%;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  padding: 0px  ;
+  display: block;
+}
+.next-page-col1, .next-page-col2 {
+  width: 100%;
+}
+.page-heading {
+  font-size: 26px;
+  /* font-family: 'Raleway'; */
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.pic-text {
+  font-size: 14px;
+  margin-top: 0em;
+  color: gray;
+}
+.next-page-img1 {
+  width: 100%;
+  margin-top: 20px;
+}
+.next-page-img2 {
+  width: 100%;
+}
+.next-page-img3 {
+  width: 100%;
+  margin-top: 2em;
+}
+.t-text {
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  padding-top: 2em;
+}
+.t2-text {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 0px;
+}
+.testimonial-page {
+  background-image: url(/image/testimonail-section-bg-1.jpg);
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center center; */
+  /* opacity: 0.89; */
+  height: 1000px;
+}
+.avtar {
+  border: 4px solid yellow;
+  border-radius: 46px;
+  position: relative;
+  top: 60px;
+  margin-left: 25px;
+}
+.review-name {
+  text-align: center;
+  font-size: 16px;
+  margin-top: -45px;
+}
+.review-card {
+  font-size: 16px;
+  margin-top: 45px;
+}
+.reservation-word {
+  font-size: 26px;
+  text-align: center;
+  /* font-family: inherit; */
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+.book-a-table {
+  border: 2px solid black;
+  padding: 15px 18px 15px 18px;
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.telephone-reservation {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.number {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+.cake-image {
+  float: right;
+  position: relative;
+  bottom: 45px;
+  /* height: 20%; */
+  height: 160px;
+}
+.footer-col1, .footer-col2, .footer-col3, .footer-col4 {
+  width: 85%;
+}
+.nyus-logo {
+  width: 45%;
+}
+.footer-row-wrapper {
+  margin: 0 auto;
+  width: 90%;
+  /* justify-content: space-between; */
+}
+.location {
+  font-size: 22px;
+  margin-top: 20px;
+}
+.location-logo {
+  height: 21px;
+  padding-right: 5px;
+  padding-top: 15px;
+}
+.quick-link {
+  font-size: 22px;
+  /* margin: 0px; */
+  margin-top: 5px;
+}
+.list-items {
+  width: fit-content;
+  font-size: 14px;
+}
+.timing {
+  font-size: 22px;
+  margin: 0;
+  margin-top: 10px;
+}
+.time {
+  font-size: 13px;
+}
+.reservation-button {
+  margin: 14px 25px 14px 25px;
+  padding: 10px 22px 10px 22px;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  border: 1px solid;
+  font-size: 10px;
+}
+.footer {
+  /* margin: auto; */
+  /* width: 70%; */
+  background-color: black;
+  color: white;
+  padding: 40px 0;
+  margin-top: -130px;
+}
+.copy-right {
+  font-size: 10px;
+}
+.powered-by{
+  font-size: 10px;
+}
+
 }
